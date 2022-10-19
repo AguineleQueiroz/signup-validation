@@ -1,0 +1,152 @@
+/* Google fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* config style std ------------------------------------------*/
+
+:root {
+  /* font */
+  --font: "Poppins", sans-serif;
+
+  /* font sizes */
+  --fs-header: 22px;
+  --fs-normal: 16px;
+  --fs-small: 12px;
+
+  /* font weight */
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+
+  /* colores */
+  --primary-color: #764af1;
+  --primary-hover-color: #7900ff;
+  --secondary-color: #87a2fb;
+  --white-color: #ffffff;
+  --dark-color: #0f0e0e;
+  --gray-color: #777777;
+  --gray-light-color: #d1d1d1;
+  --error-color: #ff5959;
+  --success-color: #5bb318;
+}
+
+* {
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+}
+
+/* signup box styles ---------------------------------------- */
+
+.container {
+  position: relative;
+  max-width: 368px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 3px;
+  background-color: var(--white-color);
+}
+
+.container header {
+  display: flex;
+  justify-content: center;
+  font-size: var(--fs-header);
+  font-weight: var(--fw-600);
+  color: var(--dark-color);
+}
+
+.container form {
+  margin-top: 1.875rem;
+}
+
+form .form-field {
+  margin-bottom: 20px;
+}
+
+form .input-field {
+  position: relative;
+  height: 44px;
+  width: 100%;
+}
+
+.input-field input:focus {
+  border-color: var(--primary-hover-color);
+}
+
+.input-field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border: 1px solid var(--gray-light-color);
+  border-radius: 3px;
+  padding: 0 15px;
+}
+
+.invalid input {
+  border-color: var(--error-color);
+}
+
+.input-field .show-hide-pwd {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: var(--gray-color);
+  cursor: pointer;
+  padding: 5px;
+}
+
+.form-field .error {
+  align-items: center;
+  margin-top: 8px;
+  color: var(--error-color);
+  font-size: var(--fs-small);
+  display: none;
+}
+
+.invalid .error {
+  display: flex;
+}
+
+.error .error-icon {
+  margin-right: 5px;
+  font-style: var(--fs-header);
+}
+
+.create-password .error {
+  align-items: flex-start;
+}
+
+.create-password .error-icon {
+  margin-top: 3px;
+}
+
+/* buttom styles ---------------------------------------- */
+
+.button-signup {
+  margin: 25px 0 10px 0;
+}
+
+.button-signup input {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: var(--fs-normal);
+  font-weight: var(--fw-400);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-signup input:hover {
+  background-color: var(--primary-hover-color);
+}

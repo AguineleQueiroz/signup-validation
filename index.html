@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Validation</title>
+
+    <!-- css custom -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./assets/img/Logomarca.svg" alt="" class="logo">
+        </header>
+
+        <form action="https://github.com/AguineleQueiroz">
+            <!-- email -->
+            <div class="form-field email-field">
+                <div class="input-field">
+                    <input class="email" type="email" name="email" id="email" placeholder="Entre com seu email">
+                </div>
+                <span class="error email-error" id="error">
+                    <i class='bx bx-error error-icon'></i>
+                    <p class="message-error">Informe um email válido.</p>
+                </span>
+            </div>
+            <!-- create password input -->
+            <div class="form-field create-password">
+                <div class="input-field">
+                    <input class="pwd-create" type="password" name="password" placeholder="Crie uma senha">
+                    <i class='bx bx-hide show-hide-pwd'></i>
+                </div>
+                <span class="error pwd-error" id="pwd-error">
+                    <i class='bx bx-error error-icon'></i>
+                    <p class="message-error">Sua senha deve conter números, símbolos e letras maiúsculas e minúsculas.</p>
+                </span>
+            </div>
+            <!-- connfirm password input -->  
+            <div class="form-field confirm-password">
+                <div class="input-field">
+                    <input class="pwd-confirm" type="password" name="password" placeholder="Confirme a senha">
+                    <i class='bx bx-hide show-hide-pwd'></i>
+                </div>
+                <span class="error confirm-pwd-error" id="conf-pwd-error">
+                    <i class='bx bx-error error-icon'></i>
+                    <p class="message-error">Senhas não coincidem.</p>
+                </span>
+            </div>
+            <!-- button submit -->
+            <div class="input-field button-signup">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
