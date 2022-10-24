@@ -12,9 +12,9 @@ O projeto é um formulário de cadastro desenvolvido com intuito de aplicar e so
 Concluído. :sunglasses:
 ### Tecnologias
 
-* JavaScript
-* HTML5
-* CSS3
+- JavaScript
+- HTML5
+- CSS3
 
 ### Autor
 ```
