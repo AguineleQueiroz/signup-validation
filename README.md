@@ -8,8 +8,8 @@ O projeto é um formulário de cadastro desenvolvido com intuito de aplicar e so
 ![screen-shot-2](https://user-images.githubusercontent.com/66737248/196749351-3e39563f-4717-4c89-bdbd-09e20366faad.png)
 
 ### Status
+[![Status Completo](https://img.shields.io/badge/STATUS-COMPLETO-green?style=for-the-badge)]()
 
-Concluído. :sunglasses:
 ### Tecnologias
 
 - JavaScript
