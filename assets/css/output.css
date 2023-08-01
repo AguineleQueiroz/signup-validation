@@ -1,0 +1,64 @@
+/* Google fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* config style std */
+/* font sizes */
+/* font weight */
+/* colores */
+/* container */
+.container {
+  position: relative;
+  max-width: 368px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 3px;
+  background-color: var(#ffffff);
+}
+.container form {
+  margin-top: 1.875rem;
+}
+.container form .form-field {
+  margin-bottom: 20px;
+}
+.container form .form-field .error {
+  align-items: center;
+  margin-top: 8px;
+  color: var(#ff5959);
+  font-size: var(12px);
+  display: none;
+}
+.container form .form-field .error .error-icon {
+  margin-right: 5px;
+  font-style: var(22px);
+}
+.container form .input-field {
+  position: relative;
+  height: 44px;
+  width: 100%;
+}
+.container form .input-field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border: 1px solid var(#d1d1d1);
+  border-radius: 3px;
+  padding: 0 15px;
+}
+.container form .input-field input:focus {
+  border-color: var(#7900ff);
+}
+.container form .input-field .show-hide-pwd {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: var(#777777);
+  cursor: pointer;
+  padding: 5px;
+}
+.container .invalid input {
+  border-color: var(#ff5959);
+}
+
+/*# sourceMappingURL=output.css.map */
